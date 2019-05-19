@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.examples.akshay.wififiletranserfer.activities.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/method_1"/>
+    
+    <Button
+        android:id="@+id/main_activity_button_scan_qrcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/join_lead" />
+
+    <Button
+        android:id="@+id/main_activity_button_generate_qrcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lead_device" />
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/main_activity_button_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/test" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/method_2"/>
+    
+    <Button
+        android:visibility="gone"
+        android:id="@+id/main_activity_button_use_nsd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nsd" />
+</LinearLayout>
