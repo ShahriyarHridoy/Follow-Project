@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">BluetoothFileTransfer</string>
+    <string name="client">Client</string>
+    <string name="server">Server</string>
+    <string name="bluetooth_not_supported">Bluetooth not supported</string>
+    <string name="bluetooth_supported">Bluetooth available</string>
+    <string name="bluetooth_state">Bluetooth state</string>
+    <string name="unknown">unknown</string>
+    <string name="on">on</string>
+    <string name="off">off</string>
+    <string name="OFF">OFF</string>
+    <string name="ON">ON</string>
+    <string name="STATE_TURNING_OFF">STATE_TURNING_OFF</string>
+    <string name="STATE_TURNING_ON">STATE_TURNING_ON</string>
+    <string name="STATE_OFF">STATE_OFF</string>
+    <string name="STATE_ON">STATE_ON</string>
+    <string name="SCAN">SCAN</string>
+    <string name="paired_devices">Paired Devices</string>
+    <string name="make_discoverable">Make discoverable</string>
+    <string name="stop_scan">STOP SCAN</string>
+    <string name="connect">CONNECT</string>
+    <string name="accept">ACCEPT</string>
+    <string name="data_received">Data Received</string>
+    <string name="transfer_data">TRANSFER DATA</string>
+    <string name="send">SEND</string>
+    <string name="device_connected">Device connected</string>
+    <string name="device_disconnected">Device Disconnected</string>
+    <string name="test">test</string>
+    <string name="enter_file_name_here">Enter file name here</string>
+    <string name="test1">test1</string>
+    <string name="test2">test2</string>
+    <string name="accept_connections">Accept Connections</string>
+    <string name="receive">RECEIVE</string>
+    <string name="receive_forms">RECEIVE FORMS</string>
+    <string name="send_forms">SEND FORMS</string>
+</resources>
