@@ -37,6 +37,7 @@ dependencies {
     implementation "com.dlazaro66.qrcodereaderview:qrcodereaderview:$qrCodeReaderViewVersion"
     implementation "com.android.support:support-core-utils:25.4.0"
 
+    implementation 'com.github.kenglxn.QRGen:android:2.5.0'
     implementation "com.jakewharton:butterknife:$butterKnifeVersion"
     implementation "com.tbruyelle.rxpermissions:rxpermissions:$rxPermissionVersion"
     implementation "io.reactivex:rxandroid:$rxAndroidVersion"

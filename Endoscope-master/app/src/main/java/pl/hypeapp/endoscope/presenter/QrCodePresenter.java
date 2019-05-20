@@ -3,7 +3,7 @@ package pl.hypeapp.endoscope.presenter;
 import android.graphics.Bitmap;
 import android.support.annotation.NonNull;
 
-//import net.glxn.qrgen.android.QRCode;
+import net.glxn.qrgen.android.QRCode;
 import net.grandcentrix.thirtyinch.TiPresenter;
 
 import pl.hypeapp.endoscope.view.QrCodeView;
@@ -22,10 +22,7 @@ public class QrCodePresenter extends TiPresenter<QrCodeView> {
     }
 
     private void generateQrCode(String ipAddress) {
-       // Bitmap qrCOde = QRCode.from(ipAddress).bitmap();
-
-
-
-        //getView().setQrCodeBitmap(qrCOde);
+        Bitmap qrCOde = QRCode.from(ipAddress).bitmap();
+        getView().setQrCodeBitmap(qrCOde);
     }
 }
